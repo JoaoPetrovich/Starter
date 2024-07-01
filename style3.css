@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Mr+Dafoe&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mr+Dafoe&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Mr+Dafoe&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Mr+Dafoe&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Mr+Dafoe&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Share+Tech&display=swap');
+@font-face {
+    font-family: 'auto';
+    src: url(fonts/Autography.otf);
+}
+@font-face {
+    font-family: 'escolar';
+    src: url(fonts/Letters\ for\ Learners.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ADD8E6;
+}
+
+body {
+    background: linear-gradient(to right, #E37900, #004D6E)
+}
+
+.cabecalho {
+    border-bottom: 4px solid #009DDB;
+    background-color: #00435D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cabecalho-menu-item:hover {
+    color: #ADFF2F;
+    font-size: 22px;
+}
+
+.conteudo {
+    border-top: 0.4px solid #ADFF2F;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-texto-titulo1 {
+    font-family: "Lily Script One", system-ui;
+    font-weight: 600px;
+    font-size: 50px;
+    color: #ADFF2F;
+}
+
+.conteudo-principal-texto-titulo2 {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.conteudo-principal-texto-botao {
+    background-color: #ADFF2F;
+    width: 240px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px #32CD32;
+    border-radius: 25px;
+    color: #00435D;
+    font-size: 16px;
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo3 {
+    border-top: 0.4px solid #ADFF2F;
+    padding-top: 20px;
+    font-family: "Lily Script One", system-ui;
+    font-weight: 600px;
+    font-size: 40px;
+    color: #ADFF2F;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.rodape {
+    border-top: 4px solid #009DDB;
+    background-color: #00435D;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape-texto-escrito {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.rodape-item-imagem {
+    width: 35px;
+}

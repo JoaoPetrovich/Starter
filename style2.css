@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'escolar';
+    src: url(fonts/Letters\ for\ Learners.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #EBF5EE;
+}
+
+body {
+    background: #780116;
+}
+
+.cabecalho {
+    border-bottom: 4px solid #F7B538;
+    background-color: #DB7C26;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item {
+    font-family: "escolar", sans-serif;
+    font-weight: 100;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cabecalho-menu-item:hover {
+    color: #EBF5EE;
+    font-size: 27px;
+}
+
+.conteudo {
+    border-top: 0.4px solid #DB7C26;
+    margin-bottom: 10px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-texto1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo-principal-texto-titulo01 {
+    font-family: "escolar";
+    font-weight: 250px;
+    font-size: 40px;
+    color: #D0CD94;
+    text-align: center;
+}
+
+.conteudo-principal-texto-titulo02 {
+    font-family: "escolar", cursive;
+    font-weight: 600;
+    font-size: 30px;
+    color: #D0CD94;
+    text-align: center;
+    border: solid #F7B538;
+    background-color: #DB7C26;
+}
+
+.conteudo-principal-texto-titulo03 {
+    font-family: "escolar", cursive;
+    font-weight: 600;
+    font-size: 30px;
+    color: #D0CD94;
+    text-align: center;
+    border: solid #F7B538;
+    background-color: #DB7C26;
+}
+
+.conteudo-principal-texto-titulo04 {
+    font-family: "escolar", cursive;
+    font-weight: 600;
+    font-size: 21px;
+    color: #D0CD94;
+    text-align: center;
+    margin: 15px;
+    margin-top: 15px;
+}
+.conteudo-principal-paragrafo {
+    margin-top: 15px;
+    margin: 10px;
+}
+
+.ilustracao {
+    text-align: center;
+}
+
+.conteudo-principal-imagem {
+    height: 350px;
+    width: 450px;
+    border: 3px solid rgb(138, 137, 137);
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.conteudo-principal-lista {
+    margin: 10px;
+}
+
+.conteudo-principal-lista-texto {
+    margin-top: 12px;
+}
+
+.rodape {
+    border-top: 4px solid #F7B538;
+    background-color: #DB7C26;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape-texto-escrito {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-right: 800px;
+    color: black;
+}
+
+.rodape-item-imagem {
+    width: 35px;
+}
+

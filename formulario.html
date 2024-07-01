@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="icon" href="img/aatrox.png">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="img/aatrox.png" alt="Logo do Site">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="index.html">Inicio</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Formulário de Candidatura</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" required>
+            </div>
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" required>
+            </div>
+            <div class="form-group">
+                <label for="cidade">Cidade/CEP:</label>
+                <input type="text" name="cidade" required>
+            </div>
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" min="0" max="120" required>
+            </div>
+            <div class="form-group">
+                <label for="genero">Gênero:</label>
+                <select id="genero" name="genero" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="curriculo">Enviar Currículo:</label>
+                <input type="file" name="curriculo" accept=".pdf,.doc,.docx" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="rodape">
+        <a class="rodape-item" href="https://wa.me/qr/UMRDYFG73ISDK1" target="_blank">
+            <img class="rodape-item-imagem" src="links/whatsapp.svg" alt="Whatsapp">
+        </a>
+        <a class="rodape-item" href="https://www.instagram.com/jaumdavid_/" target="_blank">
+            <img class="rodape-item-imagem" src="links/instagram.svg" alt="Instagram">
+        </a>
+        <section class="rodape-texto">
+            <label class="rodape-texto-escrito">João David Petrovich &reg; 2024</label>
+        </section>
+    </footer>
+</body>
+
+</html>
